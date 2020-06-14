@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|UnifrakturMaguntia|Unkempt&display=swap');
+
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+main {
+    position: relative;
+    padding-top: 55px;
+}
+ul,li,a {
+	color: white;
+}
+
+nav .navbar {
+	margin: 0;
+	width: 95%;
+}
+body{
+    background-image: url(./assets/images/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    /* background: rgba(0, 0, 0, 0); */
+}
+/* .color-overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+.form{
+    
+    background-color: transparent;
+    margin-top: 65px;
+    color: white; 
+    float: left;
+   
+
+} */
