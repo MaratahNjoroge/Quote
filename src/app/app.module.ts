@@ -5,18 +5,18 @@ import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { QoutesComponent } from '../app/qoutes/qoutes.component';
-import { QuotesDetailsComponent } from './qoutes/quotes-details/quotes-details.component' 
 import { CapitalizePipe} from '../app/capitalize-pipe.pipe';
-import { QuotesFormComponent } from '../app/quotes-form/quotes-form.component'
-
-
+import { QuotesFormComponent } from '../app/quotes-form/quotes-form.component';
+import { QuotesDetailsComponent } from '../app/qoutes/quotes-details.component'
+import { QouteDirective } from './quote-directive';
 @NgModule({
   declarations: [
     AppComponent,
     QoutesComponent,
-    QuotesDetailsComponent,
     CapitalizePipe,
-    QuotesFormComponent
+    QuotesFormComponent,
+    QuotesDetailsComponent,
+    QouteDirective
   ],
   imports: [
     BrowserModule,
